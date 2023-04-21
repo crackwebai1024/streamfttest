@@ -17,4 +17,4 @@ This is the front-end repo for the `Anonymous Question App`. With the current ve
 - **Step 3:** Run `npm install`.
 - **Step 4:** Run `npm run start`.
 
-> To know how to run the back-end repo, we can refer to this [link](https://github.com/hlestreamft/anonymous-question-app/server)
+> To know how to run the back-end repo, we can refer to this [link](https://github.com/hlestreamft/anonymous-question-app/tree/main/server)

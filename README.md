@@ -12,8 +12,8 @@ This is the `Anonymous Question App`. With the current version, the end-users ca
 
 ## 2. HOW TO RUN FRONT-END AND BACK-END REPOS
 
-- To know how to run the front-end repo, we can refer to this [link](https://github.com/hlestreamft/anonymous-question-app/client)
-- To know how to run the back-end repo, we can refer to this [link](https://github.com/hlestreamft/anonymous-question-app/server)
+- To know how to run the front-end repo, we can refer to this [link](https://github.com/hlestreamft/anonymous-question-app/tree/main/client)
+- To know how to run the back-end repo, we can refer to this [link](https://github.com/hlestreamft/anonymous-question-app/tree/main/server)
 
 ## 3. ACCEPTANCE CRITERIA
 
