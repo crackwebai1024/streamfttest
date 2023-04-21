@@ -5,7 +5,7 @@ import cors from "cors";
 import helmet from "helmet";
 import morgan from "morgan";
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8081;
 
 let anonymousQuestions = [];
 
