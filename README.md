@@ -4,10 +4,11 @@
 
 This is the `Anonymous Question App`. With the current version, the end-users can do the following things:
 
-- Sign-in
 - Add new questions.
 - View the list of questions.
 - Clear all questions.
+
+![](assets/demo.gif)
 
 ## 2. HOW TO RUN FRONT-END AND BACK-END REPOS
 
@@ -17,7 +18,6 @@ This is the `Anonymous Question App`. With the current version, the end-users ca
 ## 3. ACCEPTANCE CRITERIA
 
 - The end-users can add new questions, view the list of questions, and clear all questions.
-- It would be great if the end-users can sign in and the application supports the protected routes.
 - It would be great if we can add tests to the project.
 - It would be great if we can add some stylings to the application.
 - It would be great if we can structure the project to make it easy to maintain, scale, ... in the future.

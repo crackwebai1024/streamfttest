@@ -7,10 +7,6 @@ import morgan from "morgan";
 
 const PORT = process.env.PORT || 8080;
 
-const FAKE_USERNAME = "test@streamft.com";
-const FAKE_PASSWORD = "test@123456";
-const FAKE_TOKEN = "this-is-a-random-token";
-
 let anonymousQuestions = [];
 
 const app = express();
@@ -23,28 +19,6 @@ app.use(morgan("common"));
 
 app.get("/", () => {
   console.log("Ping Pong");
-});
-
-app.post("/sign-in", (req, res) => {
-  const { username, password } = req.body;
-
-  if (!username || !password) {
-    res.status(400).jsonp({
-      message: "The username and password are required",
-    });
-    return;
-  }
-
-  if (username === FAKE_USERNAME || password === FAKE_PASSWORD) {
-    res.status(200).jsonp({
-      token: FAKE_TOKEN,
-    });
-    return;
-  }
-
-  res.status(200).jsonp({
-    message: "The username or password is not correct",
-  });
 });
 
 app.get("/questions", (req, res) => {

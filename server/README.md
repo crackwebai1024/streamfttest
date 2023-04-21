@@ -4,7 +4,6 @@
 
 This is the back-end repo for the `Anonymous Question App`. With the current version, the end-users can do the following things:
 
-- Sign-in
 - Add new questions.
 - View the list of questions.
 - Clear all questions.
@@ -20,28 +19,7 @@ This is the back-end repo for the `Anonymous Question App`. With the current ver
 
 ## 3. LIST OF APIS
 
-### 3.1. SIGN IN
-
-```js
-method: POST
-
-API endpoint: /sign-in
-
-Sample Request payload:
-
-{
-  "username": "test@streamft.com",
-  "password": "test@123456"
-}
-
-Sample Response:
-
-{
-  "token": "this-is-a-random-token"
-}
-```
-
-### 3.2. ADD NEW QUESTIONS
+### 3.1. ADD NEW QUESTIONS
 
 ```js
 method: POST
@@ -61,7 +39,7 @@ Sample Response:
 }
 ```
 
-### 3.3. GET ALL QUESTIONS
+### 3.2. GET ALL QUESTIONS
 
 ```js
 method: GET
@@ -79,7 +57,7 @@ Sample Response:
 ]
 ```
 
-### 3.4. CLEAR ALL QUESTIONS
+### 3.3. CLEAR ALL QUESTIONS
 
 ```js
 method: DELETE

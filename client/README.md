@@ -4,10 +4,11 @@
 
 This is the front-end repo for the `Anonymous Question App`. With the current version, the end-users can do the following things:
 
-- Sign-in
 - Add new questions.
 - View the list of questions.
 - Clear all questions.
+
+![](../assets/demo.gif)
 
 ## 2. HOW TO RUN THIS REPO
 
@@ -17,7 +18,3 @@ This is the front-end repo for the `Anonymous Question App`. With the current ve
 - **Step 4:** Run `npm run start`.
 
 > To know how to run the back-end repo, we can refer to this [link](https://github.com/hlestreamft/anonymous-question-app/server)
-
-## 3. DEMO
-
-// TBD
